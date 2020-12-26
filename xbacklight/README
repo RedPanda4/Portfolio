@@ -1,0 +1,11 @@
+
+
+This is a project i adapt from:
+https://gitlab.com/wavexx/acpilight/-/blob/master/xbacklight
+
+From the need to tweak the way the value is calculate, since for most of controllers on my laptop made that low values (0 to 10) changed the brightness in a radical way, on high values (11-100) it wasn't notice any change.
+
+i add my own that is inserted between the highlighted blocks
+# ---------------------------- CODE ADDED -----------------------------
+# -------------------------- END OF MY CODE ---------------------------
+that is for the added controller and integration of the controller on the main code
